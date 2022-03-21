@@ -34,9 +34,6 @@ else:
   print('Data loaded succesfully!')
   
   # clean and transform data
-  dfSurveyPart3 = dfSurvey[['ResponseId'
-                            ,'Country'
-                            ,'LanguageHaveWorkedWith']]
   dfSurvey = dfSurvey[['Country'
                        ,'Age1stCode']]
   dfSurvey['Age1stCode'] = dfSurvey['Age1stCode'].astype('category')
@@ -79,6 +76,3 @@ else:
                                   dfJoined['Gdp_2021'][dfJoined['Age1stCode'] == 'Older than 64 years'])
   print(f'F-value = {fvalue}, p-value = {pvalue}')
   print(['no significant differences between groups!' if pvalue < 0.05 else 'there are significant differences between groups!'])
-
- 
-
