@@ -3,7 +3,7 @@
 General
 
 This file contains explanation to the assessment that has been given to me. Next to this file there are specific files for each of the parts of the assessment, they will be mentioned as I will elaborate on each specific part.
-For the GDP data I decided to use Eurostat as data provider since a link to the data was provided in the assessment.
+For the GDP data I decided to use Eurostat as data provider since a link to the data was provided in the assessment. In this file there were 3 sheets with different units of measure (euro per capita, million purchasing power standards and million euro). For this assessment i chose to use GDP in million euro.
 Both data files have been downloaded and added to the repo.
 
 Part 1
@@ -12,7 +12,7 @@ Question:
 Determine whether there is a relationship between GDP and the age that developers of a country first start coding. Extract and create one or more tables to store the data necessary to perform this comparison. Use a visual plot to support your conclusion(s).
 
 Solution:
-For this question and the data included I noticed this would be a yearly analysis and that the data-files could potentially be different every year. Looking at the business needs i identyfied I believe it would make sense to provide a custom solution for this question. 
+For this question and the data included I noticed this would be a yearly analysis and that the data-files could potentially be different every year. Looking at the business needs i identyfied, I believe it would make most sense to provide a custom solution since this code would be ran only once (a year). 
 Therefore I have provided a python script to perform the following steps:
 -	Read both data files
 
@@ -44,7 +44,7 @@ Question:
 Create a REST web service that exposes a single method to return both the GDP and youngest coding age range, using the table(s) defined in Part 1, when the ISO code of a country is supplied as input. Suggest at least 2 ways that the scalability of this service can be increased.
 
 Solution:
-For this question I used Visual Studio to build an REST web service with ASP.NET Core. In Visual Studio i created a new project and select: ASP.NET Core Web API. this automaticcaly comes with a pre defined weatherforecast API which needs to be changed to your specific requirements, which can be done by editing the Program.cs file.
+For this question I used Visual Studio to build an REST web service with ASP.NET Core. In Visual Studio i created a new project and select: ASP.NET Core Web API. This automaticcaly comes with a pre defined weatherforecast API which needs to be changed to your specific requirements, which can be done by editing the Program.cs file.
 
 To make it a custom solution i identified the following steps:
 -	Configure endpoints
@@ -52,10 +52,10 @@ To make it a custom solution i identified the following steps:
 the endpoint: GET /ISOcountrycode should return the youngest age group and corresponding mean GDP value
 -	Setup a connection to the data
 
-to create a data connection...
+This usually involves creating a connection string with the information of the database and authentication.
 
 Files:
--	Folder part2
+-	in Folder ABNpart2
 
 Part 3
 
@@ -73,11 +73,13 @@ Zimbabwe	0	12	34
 
 Solution:
 To answer this question I identified 3 main steps that need to be done:
-1) I noticed that the way the relevant data about programming languages (column: “LanguageHaveWorkedWith”) is stored needed to be changed. Multiple values are stored in 1 column, I chose to transform the data so that each value was stored in a separate row
-2) After step 1 a query could be written to identify the top 3 most used programming languages
-3) With the top 3 programming languages known from step 2 the table/data created in step 1 could be queried to provide the output from the main question. 
-The queries I created for each step can be found in the repo.
+1) I noticed that the way the relevant data about programming languages (column: “LanguageHaveWorkedWith”) is stored needed to be changed. Multiple values are stored in 1 column, I chose to transform the data so that each value was stored in a separate row.
+2) After step 1 a query could be written to identify the top 3 most used programming languages.
+3) With the top 3 programming languages known from step 2, i created a pivot table to provide the output needed from the main question. 
+
+I created a SQL script that includes 3 queries for all the 3 steps mentioned. I also included a .bak file to restore the database i created locally for this part of the assessment. I manually imported the survey file into the database and stored is as 'surveytable'.
 
 Files:
 -	Part3.sql
+-	assessment.zip
 
