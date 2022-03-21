@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WjW2WzIGjYz1x9pk8egavHk5zYpklZUcGwXFA2j0JxBl/BPAMLDFaigbMnp7lX/XAX7Zo6ut5+IOA6tE9/5FaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Wolfslag\\source\\repos\\assessment\\ABNpart2\\ABNpart2\\ABNpart2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wolfslag\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Wolfslag\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Wolfslag\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Wolfslag\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Wolfslag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Wolfslag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
