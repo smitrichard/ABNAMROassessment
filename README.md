@@ -32,8 +32,6 @@ using the scipy.stats library i performed an ANOVA test to compare GDP by age gr
 
 *Based on the visualization it was clear there is no relationship between GDP and age. Looking at the distribution of the age groups it was clear that it did not match the requirements for an ANOVA test(to look for significant differences between groups), however for the assignment I included the ANOVA test to showcase it.
 
-- As an additional step i wrote a dataframe to SQL to use in other steps of the assessment
-
 Files:
 -	part1.py
 -	survey_results_public.csv
