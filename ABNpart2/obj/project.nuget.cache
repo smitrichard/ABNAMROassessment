@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WjW2WzIGjYz1x9pk8egavHk5zYpklZUcGwXFA2j0JxBl/BPAMLDFaigbMnp7lX/XAX7Zo6ut5+IOA6tE9/5FaA==",
+  "dgSpecHash": "fBvy//df4eQ590D7CgRMTOTCmzULVwJ0YNXfzTaPvF1S/jPaCmqUpjAjslYbPngxaZKWns5+Sgf5knskDcSTDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wolfslag\\source\\repos\\assessment\\ABNpart2\\ABNpart2\\ABNpart2.csproj",
+  "projectFilePath": "C:\\Users\\Wolfslag\\Source\\Repos\\ABNAMROassessment\\ABNpart2\\ABNpart2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wolfslag\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Wolfslag\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

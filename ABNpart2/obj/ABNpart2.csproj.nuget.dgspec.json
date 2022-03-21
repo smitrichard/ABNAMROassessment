@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wolfslag\\source\\repos\\assessment\\ABNpart2\\ABNpart2\\ABNpart2.csproj": {}
+    "C:\\Users\\Wolfslag\\Source\\Repos\\ABNAMROassessment\\ABNpart2\\ABNpart2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wolfslag\\source\\repos\\assessment\\ABNpart2\\ABNpart2\\ABNpart2.csproj": {
+    "C:\\Users\\Wolfslag\\Source\\Repos\\ABNAMROassessment\\ABNpart2\\ABNpart2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wolfslag\\source\\repos\\assessment\\ABNpart2\\ABNpart2\\ABNpart2.csproj",
+        "projectUniqueName": "C:\\Users\\Wolfslag\\Source\\Repos\\ABNAMROassessment\\ABNpart2\\ABNpart2.csproj",
         "projectName": "ABNpart2",
-        "projectPath": "C:\\Users\\Wolfslag\\source\\repos\\assessment\\ABNpart2\\ABNpart2\\ABNpart2.csproj",
+        "projectPath": "C:\\Users\\Wolfslag\\Source\\Repos\\ABNAMROassessment\\ABNpart2\\ABNpart2.csproj",
         "packagesPath": "C:\\Users\\Wolfslag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wolfslag\\source\\repos\\assessment\\ABNpart2\\ABNpart2\\obj\\",
+        "outputPath": "C:\\Users\\Wolfslag\\Source\\Repos\\ABNAMROassessment\\ABNpart2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wolfslag\\AppData\\Roaming\\NuGet\\NuGet.Config",
