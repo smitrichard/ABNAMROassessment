@@ -14,7 +14,7 @@ FROM(
 Group by LanguageHaveWorkedWith
 ORDER BY [LanguageHaveWorkedWithCount] DESC;
 
--- create a pivot to show count of these languages by country (let’s say they are: C++, Python and HTML/CSS)
+-- create a pivot to show count of the top 3 languages by country
 SELECT Country,  [Javascript], [HTML/CSS], [Python]
 FROM(
   	SELECT Country, t2.value AS LanguageHaveWorkedWith
